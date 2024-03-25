@@ -34,9 +34,11 @@ form.addEventListener("submit", (e) => {
     formInputs.forEach((input) => {
         if (!input.value) {
             input.classList.add("error");
+            input.style.border = "1px solid red";
             formValid = false;
         } else {
             input.classList.remove("error");
+            input.style.border = "1px solid green";
         }
     });
 
