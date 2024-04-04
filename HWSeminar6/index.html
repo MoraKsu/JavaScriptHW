@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header__wrapper container">
+            <div class="header__left-side">
+                <a class="header__logo" href="./index.html"><img src="./img/logo.svg" alt="Логотип сайта" /></a>
+                <button class="header__search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="28" fill="none">
+                        <path
+                            fill="#E8E8E8"
+                            d="M19.06 17.626A10.395 10.395 0 1 0 11.42 21c2.253.003 4.444-.731 6.24-2.09l7.749 7.807a.925.925 0 0 0 .66.285.9.9 0 0 0 .66-.285.971.971 0 0 0 0-1.346l-7.67-7.746ZM2.887 10.5a8.535 8.535 0 1 1 8.534 8.6 8.575 8.575 0 0 1-8.534-8.6Z"
+                        />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="header__right-side">
+                <button class="header__burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="23" fill="#E8E8E8">
+                        <path d="M0 23v-2.69h32V23H0Zm0-10.24v-2.69h32v2.69H0ZM0 2.69V0h32v2.69H0Z" />
+                    </svg>
+                </button>
+                <button class="header__account">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" fill="#E8E8E8">
+                        <path
+                            d="M14.5 19.937c4.5 0 8.156-4.473 8.156-9.969C22.656 4.472 19 0 14.5 0a7.45 7.45 0 0 0-5.834 3 11.159 11.159 0 0 0-2.322 6.974c0 5.491 3.656 9.963 8.156 9.963Zm0-18.124c3.5 0 6.344 3.659 6.344 8.156 0 4.497-2.846 8.156-6.344 8.156s-6.344-3.66-6.345-8.156C8.154 5.473 11 1.813 14.5 1.813Zm6.344 16.312a.907.907 0 0 0 0 1.813 6.351 6.351 0 0 1 6.344 6.344.908.908 0 0 1-.906.906H2.72a.908.908 0 0 1-.906-.906 6.352 6.352 0 0 1 6.344-6.344.906.906 0 0 0 0-1.812A8.165 8.165 0 0 0 0 26.281 2.722 2.722 0 0 0 2.719 29h23.563A2.722 2.722 0 0 0 29 26.281a8.166 8.166 0 0 0-8.156-8.156Z"
+                        />
+                    </svg>
+                </button>
+                <button class="header__cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="29" fill="#E8E8E8">
+                        <path
+                            d="M26.2 29a2.477 2.477 0 1 1 .201 0h-.2ZM6.754 26.32a2.68 2.68 0 1 1 5.364 0 2.68 2.68 0 0 1-5.366 0h.002Zm3.8-5.634a1.184 1.184 0 0 1-1.145-.867L4.575 2.364H1.182a1.182 1.182 0 0 1 0-2.364h4.281a1.183 1.183 0 0 1 1.144.868l4.833 17.455h13.178L29 8.275h-14.6a1.183 1.183 0 1 1 0-2.365h16.413a1.178 1.178 0 0 1 .986.533 1.191 1.191 0 0 1 .1 1.122l-5.405 12.412a1.185 1.185 0 0 1-1.084.709H10.553Z"
+                        />
+                    </svg>
+                </button>
+                <div class="header__counter">
+                    <span>5</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="banner__wrapper">
+                <img src="./img/man.png" alt="banner" />
+                <div class="banner__text">
+                    <div class="block-vert-line">
+                        <h1>THE BRAND</h1>
+                        <h2>OF LUXERIOUS <span class="fashion">FASHION</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="category-list">
+            <div class="category-list__wrapper container">
+                <div class="category" style="background-image: url('./img/category-women.png')">
+                    <div class="category_blackout">
+                        <h3>30% OFF</h3>
+                        <h4>FOR WOMEN</h4>
+                    </div>
+                </div>
+                <div class="category" style="background-image: url('./img/category-man.png')">
+                    <div class="category_blackout">
+                        <h3>HOT DEAL</h3>
+                        <h4>FOR MEN</h4>
+                    </div>
+                </div>
+                <div class="category" style="background-image: url('./img/category-child.png')">
+                    <div class="category_blackout">
+                        <h3>NEW ARRIVALS</h3>
+                        <h4>FOR KIDS</h4>
+                    </div>
+                </div>
+                <div class="category-accs" style="background-image: url('./img/category-accs.png')">
+                    <div class="category_blackout">
+                        <h3>LUXIROUS & TRENDY</h3>
+                        <h4>ACCESORIES</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="list-items">
+            <h2 class="list-items__title">Fetured Items</h2>
+            <p class="list-items__description">Shop for items based on what we featured in this week</p>
+            <div class="list-items__wrapper container container-mobile">
+                
+            </div>
+            <div class="list-items__btn">
+                <button class="list-items__btn">Browse All Product</button>
+            </div>
+        </section>
+
+        <section class="image-section">
+            <div class="image-section__wrapper container">
+                <div class="cards_sections">
+                    <img src="./img/subscribe-list-car.png" alt="Subscribe List Car" />
+                    <h4>Free Delivery</h4>
+                    <p>
+                        Worldwide delivery on&nbsp;all. Authorit tively morph next&nbsp;-&nbsp;generation innov tion with
+                        extensive models.
+                    </p>
+                </div>
+                <div class="cards_sections">
+                    <img src="./img/subscribe-discount.png" alt="Subscribe Discount" />
+                    <h4>Sales & discounts</h4>
+                    <p>
+                        Worldwide delivery on&nbsp;all. Authorit tively morph next&nbsp;-&nbsp;generation innov tion with
+                        extensive models.
+                    </p>
+                </div>
+                <div class="cards_sections">
+                    <img src="./img/crown-subscribe.png" alt="Subscribe Crown" />
+                    <h4>Quality assurance</h4>
+                    <p>
+                        Worldwide delivery on&nbsp;all. Authorit tively morph next&nbsp;-&nbsp;generation innov tion with
+                        extensive models.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sub-card">
+            <div class="background-image"></div>
+            <div class="sub-card__wrapper container">
+                <img src="./img/subscribe-info.png" alt="Картинка" />
+                <div class="cards-subs">
+                    <h1 class="center">SUBSCRIBE</h1>
+                    <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form class="email-form">
+                        <input type="email" class="email-input" placeholder="Enter Your Email" />
+                        <button class="email-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="background">
+            <div class="footer__wrapper container">
+                <p class="text">© 2021 Brand All Rights Reserved.</p>
+
+                <div class="socials">
+                    <a href="#">
+                        <svg width="9" height="15" viewBox="0 0 9 15" fill="black" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.08836 8.28L8.50686 5.61602H5.89022V3.88729C5.89022 3.15848 6.25574 2.44806 7.42765 2.44806H8.61722V0.179975C8.61722 0.179975 7.53772 0 6.50561 0C4.35073 0 2.9422 1.27593 2.9422 3.5857V5.61602H0.546875V8.28H2.9422V14.72H5.89022V8.28H8.08836Z"
+                            />
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill="black" viewBox="0 0 1000 1000">
+                            <path
+                                d="M759.4 10H240.6C113.8 10 10 113.8 10 240.6v518.8C10 886.2 113.8 990 240.6 990h518.8C886.2 990 990 886.2 990 759.4V240.6C990 113.8 886.2 10 759.4 10zm173 749.4c0 95.3-77.6 172.9-172.9 172.9H240.6c-95.3 0-172.9-77.6-172.9-172.9V413.5h184.9c-16.5 35.2-26.3 74-26.3 115.3 0 151 122.8 273.8 273.8 273.8s273.8-122.8 273.8-273.8c0-41.3-9.9-80.1-26.3-115.3h184.9v345.9h-.1zM716.2 528.8C716.2 648 619.2 745 500 745s-216.2-97-216.2-216.2c0-119.2 97-216.2 216.2-216.2s216.2 97 216.2 216.2zm-5.7-172.9C660.3 294.8 585.1 255 500 255s-160.3 39.8-210.5 100.9H67.6V240.6c0-95.3 77.6-172.9 172.9-172.9h518.8c95.3 0 172.9 77.6 172.9 172.9v115.3H710.5zm132.7-189v74.8c0 17.2-14.1 31.3-31.2 31.3h-78.9c-17.3-.1-31.4-14.1-31.4-31.3v-74.8c0-17.2 14.1-31.3 31.4-31.3H812c17.2 0 31.2 14.1 31.2 31.3z"
+                            />
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" fill="black">
+                            <g clip-path="url(#a)">
+                                <path
+                                    d="M6.74.203C3.556.203.408 2.341.408 5.8c0 2.2 1.23 3.45 1.974 3.45.308 0 .485-.863.485-1.106 0-.29-.736-.91-.736-2.119 0-2.513 1.9-4.294 4.358-4.294 2.114 0 3.678 1.21 3.678 3.431 0 1.66-.661 4.772-2.803 4.772-.773 0-1.434-.562-1.434-1.368 0-1.182.82-2.325.82-3.544 0-2.069-2.915-1.694-2.915.806 0 .525.065 1.106.298 1.584-.428 1.857-1.304 4.622-1.304 6.535 0 .59.084 1.172.14 1.762.106.12.053.107.214.047 1.565-2.156 1.509-2.578 2.216-5.4.382.732 1.37 1.125 2.151 1.125 3.297 0 4.778-3.234 4.778-6.15 0-3.103-2.664-5.128-5.588-5.128Z"
+                                />
+                            </g>
+                            <defs>
+                                <clipPath id="a"><path fill="#fff" d="M.408 0h11.92v16H.407z" /></clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                            <g id="twitter-brands 1" clip-path="url(#clip0_24_235)">
+                                <path
+                                    id="Vector"
+                                    d="M14.417 4.74052C14.427 4.88264 14.427 5.0248 14.427 5.16692C14.427 9.50192 11.1498 14.4969 5.15986 14.4969C3.31448 14.4969 1.60022 13.9588 0.158203 13.0248C0.420396 13.0552 0.67247 13.0654 0.944751 13.0654C2.46741 13.0654 3.8691 12.5476 4.98843 11.6644C3.5565 11.6339 2.3565 10.6898 1.94305 9.39027C2.14475 9.4207 2.34642 9.44102 2.5582 9.44102C2.85063 9.44102 3.14308 9.40039 3.41533 9.32936C1.92291 9.02477 0.803551 7.70498 0.803551 6.11108V6.07048C1.23715 6.31414 1.74139 6.46642 2.2758 6.4867C1.39849 5.89786 0.823727 4.8928 0.823727 3.75573C0.823727 3.14661 0.985041 2.58823 1.26741 2.10092C2.87077 4.09077 5.28086 5.39023 7.98334 5.53239C7.93293 5.28873 7.90266 5.03495 7.90266 4.78114C7.90266 2.97402 9.35477 1.50195 11.1598 1.50195C12.0976 1.50195 12.9446 1.89789 13.5396 2.53748C14.2757 2.39536 14.9816 2.12123 15.6068 1.74561C15.3648 2.50705 14.8505 3.14664 14.1749 3.5527C14.8304 3.48167 15.4657 3.29889 16.0505 3.04511C15.6069 3.69483 15.0522 4.27348 14.417 4.74052V4.74052Z"
+                                />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_24_235">
+                                    <rect width="15.8924" height="16" fill="white" transform="translate(0.158203)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <!-- <img src="./img/Vector.svg" alt="Картинка" />
+                    <img src="./img/instagram.svg" alt="Картинка" />
+                    <img src="./img/pinterest-p-brands 1.svg" alt="Картинка" />
+                    <img src="./img/twitter-brands 1.svg" alt="Картинка" /> -->
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
