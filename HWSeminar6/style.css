@@ -410,6 +410,60 @@ header {
 	fill: #fff;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.card {
+  display: flex;
+  max-width: 652px;
+  box-shadow: 17px 19px 24px 0 rgba(0, 0, 0, 0.13);
+  position: relative;
+}
+.info {
+  padding: 22px 97px 62px 31px;
+}
+.card__title {
+  font-size: 24px;
+  color: #222;
+  padding-bottom: 42px;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card__item {
+  color: #575757;
+}
+.color {
+  color: #ef5b70;
+}
+.gray {
+  color: #6f6e6e;
+}
+.close {
+  position: absolute;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  top: 28px;
+  right: 22px;
+}
+
+input {
+  width: 44px;
+  height: 25px;
+  border: 1px solid #eaeaea;
+  padding-left: 15px;
+  font-size: 18px;
+  color: #656565;
+}
+
 @media (max-width: 1270px) and (min-width: 768px) {
 	.container {
 		max-width: 736px;
