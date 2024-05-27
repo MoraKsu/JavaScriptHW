@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Оставить отзыв</h1>
+    <select id="productSelect">
+        <option value="Apple iPhone 13">Apple iPhone 13</option>
+        <option value="Samsung Galaxy Z Fold 3">Samsung Galaxy Z Fold 3</option>
+        <option value="Sony PlayStation 5">Sony PlayStation 5</option>
+    </select>
+    <textarea id="reviewInput" rows="4" cols="50" placeholder="Напишите свой отзыв здесь..."></textarea>
+    <br>
+    <button onclick="addReview()">Отправить отзыв</button>
+    <div id="reviewsContainer" class="review-container"></div>
+    <script src="script.js"></script>
+    <!-- <script src="Library.js"></script> -->
+</body>
+</html>
