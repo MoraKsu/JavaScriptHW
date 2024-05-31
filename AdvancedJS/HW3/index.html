@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container center">
+        <div class="product">
+            <img src="img/Dyson Airwrap HS05.jpg" alt="Мультистайлер Dyson" class="product-image">
+            <div class="product-details">
+                <h2>Мультистайлер Dyson Airwrap HS05 Complete Long [синий, 1300 Вт, нагрев до 90 °C, насадки/функции - 6, диаметр - 30 мм, 40 мм]</h2>
+                <div class="product-price">
+                    <span class="original-price">64 799 ₽</span>
+                    <span class="discount-price">59 999 ₽</span>
+                    <span class="monthly-price">от 5 849 ₽/мес.</span>
+                </div>
+                <div class="product-meta">
+                    <button class="compare-button">Сравнить</button>
+                    <span class="rating">★★★★☆ 276</span>
+                    <span class="questions">1</span>
+                    <span class="reliability">Отличная надежность</span>
+                </div>
+                <div class="product-availability">
+                    <span>В наличии в 2 магазинах</span>
+                    <span>Доставим на дом сегодня</span>
+                </div>
+                <div class="product-actions">
+                    <button class="wishlist-button">❤</button>
+                    <button class="buy-button">Купить</button>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+            <img src="img/ноутбук.jpg" alt="Ноутбук MSI Vector GP77" class="product-image">
+            <div class="product-details">
+                <h2>17.3" Ноутбук MSI Vector GP77 13VG-065RU черный [Quad HD 2K (2560x1440), IPS, Intel Core i7-13700H, ядра: 6 + 8 х 2.4 ГГц + 1.8 ГГц, RAM 16 ГБ, SSD 1000 ГБ, GeForce RTX 4070 для ноутбуков 8 ГБ, Windows 11 Home Single Language]</h2>
+                <div class="product-price">
+                    <span class="original-price">239 999 ₽</span>
+                    <span class="discount-price">199 999 ₽</span>
+                    <span class="monthly-price">или 20 000 ₽/мес.</span>
+                </div>
+                <div class="product-meta">
+                    <button class="compare-button">Сравнить</button>
+                    <span class="rating">★★★★☆ 105</span>
+                    <span class="questions">18</span>
+                    <span class="reliability">Отличная надежность</span>
+                </div>
+                <div class="product-availability">
+                    <span>завтра c (12:00)</span>
+                    <span>Доставим на дом завтра</span>
+                </div>
+                <div class="product-actions">
+                    <button class="wishlist-button">❤</button>
+                    <button class="buy-button">Купить</button>
+                </div>
+            </div>
+        </div>
+        <div class="product review-add">
+            <h2 style="margin-bottom: 15px;">Добавить отзыв</h2>
+            <form id="reviewForm">
+                <div>
+                    <label for="productName">Название продукта:</label>
+                    <input type="text" id="productName" required>
+                </div>
+                <div>
+                    <label for="reviewText">Отзыв:</label>
+                    <textarea id="reviewText" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="buy-button">Добавить отзыв</button>
+            </form>
+        </div>
+        <div class="product review">
+            <h2>Отзывы о продуктах</h2>
+            <ul id="productsList" class="reviews-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

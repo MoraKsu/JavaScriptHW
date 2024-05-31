@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.product-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.product-price {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.discount-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.monthly-price {
+    font-size: 14px;
+    color: #888;
+}
+
+.product-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.compare-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.rating {
+    margin-right: 10px;
+}
+
+.questions {
+    margin-right: 10px;
+}
+
+.reliability {
+    color: green;
+}
+
+.product-availability {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.product-actions {
+    display: flex;
+    align-items: center;
+}
+
+.wishlist-button {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buy-button {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reviews-list {
+    list-style: none;
+    padding: 0;
+}
+
+.review-item {
+    margin-bottom: 10px;
+}
+
+.product-title {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.delete-button {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.review-add, .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review-add form, .review {
+    width: 100%;
+}
+
+.review-add form div, .review ul {
+    margin-bottom: 10px;
+}
